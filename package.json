@@ -1,0 +1,16 @@
+{
+  "name": "kevocde-portfolio",
+  "version": "1.0.0",
+  "description": "Se pretende realizar un portafolio personal.\r Como marca persona se tendrá el nombre \"Kevocde\" junto con el link a todas mis redes.",
+  "main": "public/assets/js/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "sass assets/main.scss public/css/main.css",
+    "watch-css": "sass --watch assets/main.scss public/css/main.css"
+  },
+  "author": "kevocde",
+  "license": "ISC",
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  }
+}

@@ -1,0 +1,77 @@
+/* Settings */
+/* Tools */
+/* Generics */
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;1,400;1,500&display=swap");
+/* Elements */
+* {
+  font-family: "Rubik", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #071e48;
+}
+
+body {
+  font-size: 16px;
+  background-color: #f2f4f9;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Objects */
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+/* Components */
+.header {
+  position: sticky;
+  background-color: #fff;
+}
+.header .header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .header-container .header-logo {
+  padding: 0.8rem 0rem;
+}
+.header .header-container .header-nav ul {
+  display: flex;
+  flex-direction: row;
+}
+.header .header-container .header-nav ul ol a {
+  display: block;
+  padding: 0.8rem;
+  transition: all 200ms ease;
+}
+.header .header-container .header-nav ul ol a:hover, .header .header-container .header-nav ul ol a.active {
+  color: #fff;
+  background-color: #f05d7b;
+}
+
+.main-section {
+  padding: 0.8rem 0rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.main-section .main-text .main-title {
+  font-size: 3.5rem;
+  font-weight: 500;
+  margin: 0.4rem 0;
+}
+
+/* Utilities */
+.accent-text {
+  color: #f05d7b;
+}
+
+.muted-text {
+  color: #939bc1;
+}
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,102 @@
+/* Settings */
+$backgroud-body: #f2f4f9;
+$backgroud-header: #fff;
+
+$accent-color: #f05d7b;
+$primary-color: #071e48;
+$text-secondary-color: #939bc1;
+
+/* Tools */
+
+/* Generics */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;1,400;1,500&display=swap');
+
+/* Elements */
+* {
+    font-family: 'Rubik', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: $primary-color;
+}
+
+body {
+    font-size: 16px;
+    background-color: $backgroud-body;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Objects */
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+// @media screen and (max-width: 1024px) {
+//     .container {width: 90%;}
+// }
+
+// @media screen and (max-width: 768px) {
+//     .container {width: 95%;}
+// }
+
+// @media screen and (max-width: 320px) {
+//     .container {width: 100%;}
+// }
+
+/* Components */
+.header {
+    position: sticky;
+    background-color: $backgroud-header;
+
+    .header-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .header-logo {
+            padding: .8rem 0rem;
+        }
+
+        .header-nav ul {
+            display: flex;
+            flex-direction: row;
+
+            ol a {
+                display: block;
+                padding: .8rem;
+                transition: all 200ms ease;
+
+                &:hover, &.active {
+                    color: #fff;
+                    background-color: $accent-color;
+                }
+            }
+        }
+    }
+}
+
+.main-section {
+    padding: .8rem 0rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    .main-text .main-title {
+        font-size: 3.5rem;
+        font-weight: 500;
+        margin: .4rem 0;
+    }
+}
+
+/* Utilities */
+.accent-text {
+    color: $accent-color;
+}
+
+.muted-text {
+    color: $text-secondary-color;
+}
