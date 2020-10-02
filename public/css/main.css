@@ -53,18 +53,77 @@ a {
   background-color: #f05d7b;
 }
 
-.main-section {
-  padding: 0.8rem 0rem;
+.principal-section {
+  background-color: #fffcfc;
+  background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
+}
+.principal-section .container {
   display: flex;
+  padding: 8rem 0rem;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
 }
-.main-section .main-text .main-title {
-  font-size: 3.5rem;
+.principal-section .container .principal-text {
+  margin: 0.4rem 2rem 0.4rem 0;
+}
+.principal-section .container .principal-text .principal-title {
+  font-size: 4rem;
   font-weight: 500;
   margin: 0.4rem 0;
 }
+.principal-section .container .principal-image {
+  overflow: hidden;
+  max-width: 350px;
+  min-width: 250px;
+  width: 20rem;
+  height: 20rem;
+  border: 0.4rem solid #f05d7b;
+  border-radius: 50%;
+}
+.principal-section .container .principal-image img {
+  width: 100%;
+  height: auto;
+}
 
+.skills-section .container {
+  padding: 8rem 0rem;
+}
+.skills-section .container .skills-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.skills-section .container .skills-list .skill-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  background-color: #fff;
+  padding: 1.2rem 2rem;
+  margin: 0.5rem;
+  min-height: 20rem;
+  width: 20rem;
+}
+.skills-section .container .skills-list .skill-item .skill-item-icon {
+  display: block;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 5rem;
+  position: absolute;
+  top: -2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.skills-section .container .skills-list .skill-item .skill-item-icon img {
+  width: 90%;
+  height: auto;
+}
+.skills-section .container .skills-list .skill-item .skill-item-title {
+  padding-top: 3.5rem;
+  margin-bottom: 1rem;
+}
 /* Utilities */
 .accent-text {
   color: #f05d7b;

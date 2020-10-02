@@ -79,18 +79,94 @@ a {
     }
 }
 
-.main-section {
-    padding: .8rem 0rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+.principal-section {
+    background-color: #fffcfc;
+    background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
+    
+    .container {
+        display: flex;
+        padding: 8rem 0rem;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
 
-    .main-text .main-title {
-        font-size: 3.5rem;
-        font-weight: 500;
-        margin: .4rem 0;
+        .principal-text {
+            margin: .4rem 2rem .4rem 0;
+    
+            .principal-title {
+                font-size: 4rem;
+                font-weight: 500;
+                margin: .4rem 0;
+            }
+        }
+    
+        .principal-image {
+            overflow: hidden;
+            max-width: 350px;
+            min-width: 250px;
+            width: 20rem;
+            height: 20rem;
+            border: .4rem solid $accent-color;
+            border-radius: 50%;
+            
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
     }
 }
+
+.skills-section {
+
+    .container {
+        padding: 8rem 0rem;
+
+        .skills-list {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+
+            .skill-item {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                position: relative;
+                background-color: #fff;
+                padding: 1.2rem 2rem;
+                margin: .5rem;
+                min-height: 20rem;
+                width: 20rem;
+
+                .skill-item-icon {
+                    display: block;
+                    width: 5rem;
+                    height: 5rem;
+                    border-radius: 5rem;
+                    position: absolute;
+                    top: -2.5rem;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    img {
+                        width: 90%;
+                        height: auto;
+                    }
+                }
+
+                .skill-item-title {
+                    padding-top: 3.5rem;
+                    margin-bottom: 1rem;
+                }
+
+                .skill-item-description {
+                }
+            }
+        }
+    }
+}
+
 
 /* Utilities */
 .accent-text {
