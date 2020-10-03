@@ -101,9 +101,10 @@ a {
   position: relative;
   background-color: #fff;
   padding: 1.2rem 2rem;
-  margin: 0.5rem;
+  margin: 1.5rem;
   min-height: 20rem;
   width: 20rem;
+  border-radius: 0.4rem;
 }
 .skills-section .container .skills-list .skill-item .skill-item-icon {
   display: block;
@@ -124,6 +125,11 @@ a {
   padding-top: 3.5rem;
   margin-bottom: 1rem;
 }
+.skills-section .container .skills-list .skill-item ul {
+  width: 85%;
+  margin-top: 1rem;
+}
+
 /* Utilities */
 .accent-text {
   color: #f05d7b;

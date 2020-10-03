@@ -134,9 +134,10 @@ a {
                 position: relative;
                 background-color: #fff;
                 padding: 1.2rem 2rem;
-                margin: .5rem;
+                margin: 1.5rem;
                 min-height: 20rem;
                 width: 20rem;
+                border-radius: .4rem;
 
                 .skill-item-icon {
                     display: block;
@@ -160,7 +161,9 @@ a {
                     margin-bottom: 1rem;
                 }
 
-                .skill-item-description {
+                ul {
+                    width: 85%;
+                    margin-top: 1rem;
                 }
             }
         }

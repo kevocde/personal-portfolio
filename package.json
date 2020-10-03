@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "sass assets/main.scss public/css/main.css",
-    "watch-css": "sass --watch assets/main.scss public/css/main.css"
+    "watch-css": "sass --watch assets/main.scss public/css/main.css",
+    "serve": "instant -p 8080"
   },
   "author": "kevocde",
   "license": "ISC",
