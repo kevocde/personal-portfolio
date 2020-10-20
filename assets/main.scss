@@ -237,6 +237,44 @@ a {
     }
 }
 
+.contact-section {
+    .container {
+        display: flex;
+        justify-content: center;
+        padding: 8rem 0rem;
+
+        button[type="submit"] {
+            width: 100%;
+        }
+    }
+}
+
+.card {
+    width: 70%;
+    background-color: #fff;
+    border-radius: 0.4rem;
+    display: flex;
+    justify-content: space-around;
+
+    .card-image {
+        width: 50%;
+        height: 100%;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .card-title {
+        text-align: center;
+        margin-bottom: 1.5rem;
+    }
+
+    .card-body {
+        width: 50%;
+        padding: 1.2rem;
+    }
+}
+
 
 /* Utilities */
 .accent-text {
@@ -276,6 +314,11 @@ a {
     color: #fff;
 }
 
+.bc-accent {
+    background-color: $accent-color !important;
+    color: #fff;
+}
+
 .shadown-1 {
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 10px rgba(0,0,0,0.24);
     transition: all 0.3s cubic-bezier(.25,.8,.25,1);
@@ -290,5 +333,29 @@ a {
     
     &:hover {
         text-decoration: underline;
+    }
+}
+
+.input-control {
+    min-width: 100%;
+    max-width: 100%;
+    margin: .5rem 0;
+    padding: .6rem;
+    border-radius: .2rem;
+    border: none;
+    background-color: $backgroud-body;
+}
+
+.btn {
+    padding: .6rem 1rem;
+    border: none;
+    border-radius: .2rem;
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    background-color: $backgroud-body;
+
+    &:hover {
+        filter: opacity(.8);
+        background-color: $backgroud-body;
     }
 }
