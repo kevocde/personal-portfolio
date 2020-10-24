@@ -215,6 +215,23 @@ a {
   padding: 1.2rem;
 }
 
+.footer {
+  background-color: #f05d7b;
+}
+.footer * {
+  color: #fff;
+}
+.footer .container {
+  display: flex;
+  justify-content: center;
+}
+.footer .container .card {
+  background-color: transparent;
+}
+.footer .container .contact-information .contact-information--title {
+  margin-bottom: 1.5rem;
+}
+
 /* Utilities */
 .accent-text {
   color: #f05d7b;

@@ -275,6 +275,29 @@ a {
     }
 }
 
+.footer {
+    background-color: $accent-color;
+
+    * {
+        color: #fff;
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+
+        .card {
+            background-color: transparent;
+        }
+
+        .contact-information {
+            .contact-information--title {
+                margin-bottom: 1.5rem;
+            }
+        }
+    }
+}
+
 
 /* Utilities */
 .accent-text {
